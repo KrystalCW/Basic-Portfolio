@@ -6,32 +6,43 @@
 </head>
 
 <body>
-        <div class="box1">
-                <div id="title">Krystal Christensen-Wiederrich</div>
-                <div id="about">About</div>
-                <div id="portfolio">Portfolio</div>
-                <div id="contact">Contact</div>
+
+    <div class="main-content">
+
+        <header>
+            <div class="box1">
+                <a href="index.html" id="title">Krystal Christensen-Wiederrich</a>
+                <nav>
+                    <a href="index.html" id="about">About</a>
+                    <a href="portfolio.html" id="portfolio">Portfolio</a>
+                    <a href="contact.html" id="contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="box2">
+            <h1>Contact</h1>
+        
+            <form>
+                Name<br>
+                <input type="text" name="name"><br>
+                Email<br>
+                <input type="text" name="email"><br>
+                Message<br>
+                <textarea name="Text1" cols="40" rows="5"></textarea>
+                <br>
+                <form method="post" action="mailto:krystal.wiederrich@gmail.com" >
+                <input type="submit" value="Submit"/> 
+            </form>
         </div>
 
-    <div class="box2">
-        <h1>Contact</h1>
-    
-        <form>
-            Name<br>
-            <input type="text" name="name"><br>
-            Email<br>
-            <input type="text" name="email"><br>
-            Message<br>
-            <textarea name="Text1" cols="40" rows="5"></textarea>
-            <br>
-            <form method="post" action="mailto:krystal.wiederrich@gmail.com" >
-            <input type="submit" value="Send Email" /> 
-        </form>
     </div>
 
-    <div class="box3">
-        <div id="copyright">Copyright &#169</div>
-    </div>
+    <footer>
+        <div class="box3">
+            <div id="copyright">Copyright &#169</div>
+        </div>
+</footer>
 
 </body>
 
