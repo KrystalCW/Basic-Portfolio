@@ -213,3 +213,24 @@ footer {
     float: bottom;
     padding: 20px 0px 0px 0px;
 }
+
+@media screen and (max-width: 320px) {
+
+    .box1 {
+        width: 100%;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .title-box {
+        width: 100%;
+    }
+
+    #about, #portfolio, #contact {
+        clear: both;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
